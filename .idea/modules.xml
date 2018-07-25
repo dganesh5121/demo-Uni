@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MPChartLib/MPChartLib.iml" filepath="$PROJECT_DIR$/MPChartLib/MPChartLib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TechIndiana_School_Parent.iml" filepath="$PROJECT_DIR$/TechIndiana_School_Parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android-pdf-viewer/android-pdf-viewer.iml" filepath="$PROJECT_DIR$/android-pdf-viewer/android-pdf-viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/calendar/calendar.iml" filepath="$PROJECT_DIR$/calendar/calendar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fabButtom/fabButtom.iml" filepath="$PROJECT_DIR$/fabButtom/fabButtom.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libPdfV/libPdfV.iml" filepath="$PROJECT_DIR$/libPdfV/libPdfV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libVideoplayer/libVideoplayer.iml" filepath="$PROJECT_DIR$/libVideoplayer/libVideoplayer.iml" />
+    </modules>
+  </component>
+</project>

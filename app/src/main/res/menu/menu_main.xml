@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item
+        android:id="@+id/actionLib"
+        android:icon="@mipmap/ic_library"
+        android:title="about"
+        app:showAsAction="always" />
+
+<item
+        android:id="@+id/actionNotification"
+        android:icon="@mipmap/ic_notification"
+        android:title="about"
+        app:showAsAction="always" />
+
+</menu>

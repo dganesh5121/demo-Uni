@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "990134604075",
+    "firebase_url": "https://techindiana-school-app.firebaseio.com",
+    "project_id": "techindiana-school-app",
+    "storage_bucket": "techindiana-school-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:990134604075:android:f7f1f78cafad790f",
+        "android_client_info": {
+          "package_name": "com.techindiana.school.parent"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "990134604075-60f4l6knu217mki7972297071l02q943.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLiC8XgizxIEO4ZaD3_CKl6ayIHfRi6kQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

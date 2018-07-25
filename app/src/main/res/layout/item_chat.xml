@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llRowBagpack"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="3dp"
+        android:background="@drawable/capsul"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.techindiana.school.parent.Utils.CircularImageView
+                android:id="@+id/rwChatImg"
+
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/circle"
+
+                android:src="@mipmap/logo1" />
+
+            <TextView
+                android:id="@+id/rwtvUnreadCount"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="bottom|right"
+                android:background="@drawable/circle_read"
+
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/white"
+                android:textSize="10dp" />
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/rwChatTvName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="25dp"
+                android:drawablePadding="10dp"
+                android:padding="2dp"
+                android:text=""
+                android:textColor="@color/textClrPri"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/rwChatTvSubject"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:drawablePadding="10dp"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:textColor="@color/textClrSec"
+                android:textSize="12sp" />
+
+
+            <TextView
+                android:id="@+id/rwChatTvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:drawablePadding="10dp"
+                android:gravity="right"
+                android:paddingRight="25dp"
+                android:text=""
+                android:textColor="@color/textClrSec"
+                android:textSize="11sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

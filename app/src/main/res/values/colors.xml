@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#616fbe</color>
+    <!-- <color name="colorAccent">#ED3037</color>-->
+    <color name="colorAccent">#7986CC</color>
+    <color name="colorAccent1">#616fbe</color>
+    <color name="textClrPri">#000000</color>
+    <color name="textClrSec">#444444</color>
+    <color name="divider">#a3a2a2</color>
+    <color name="textClrWhite">#ffffff</color>
+    <color name="btnColor">#7986CC</color>
+    <color name="fabbtnColor">#7986CC</color>
+    <color name="btnColor1">#f4253e</color>
+    <color name="progress1">#a6dbf5</color>
+    <color name="progress">#168cc7</color>
+
+    <color name="bg">#f9f9f9</color>
+    <color name="bg1">#f5f5f5</color>
+    <color name="green">#24BA44</color>
+    <color name="blue">#4ac1fd</color>
+
+<!--Sliding Deck-->
+    <color name="white">#FFFFFF</color>
+    <color name="brand_main">#21a5b8</color>
+    <color name="brand_main_1">#1f8b9b</color>
+    <color name="brand_main_3">#0b363c</color>
+    <color name="grey_dark">#666666</color>
+    <color name="grey_dark_2">#333333</color>
+    <color name="positive_loud">#7ed321</color>
+    <color name="orange">#FE8C05</color>
+    <color name="red">#F66262</color>
+    <color name="colorTransBg">#26000000</color>
+
+</resources>

@@ -1,0 +1,1 @@
+include ':app', ':fabButtom', ':calendar', ':MPChartLib', ':libVideoplayer', ':android-pdf-viewer', ':libPdfV'

@@ -1,0 +1,87 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TechIndiana School Parent</string>
+    <string name="progressBar">Outsource Uni</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!--Font names-->
+    <string name="font_bold">sansB.ttf</string>
+    <string name="font_regular">sansR.ttf</string>
+    <string name="font_italic">sansI.ttf</string>
+
+
+    <!--Login registration-->
+    <string name="password">Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="login">Login</string>
+    <string name="submit">Submit</string>
+    <string name="register">Sign Up</string>
+    <string name="admissionEnq">Admission Enquiry</string>
+
+    <!--No data msg-->
+    <string name="noDataNoData">No records were found</string>
+
+   <!--Menu-->
+    <string name="mHome">Home</string>
+    <string name="mNoticeBoard">Notice Board</string>
+    <string name="mTimeTable">Time Table</string>
+    <string name="mActivityCenter">Activity Center</string>
+    <string name="mHomeWork">Home Work</string>
+    <string name="mAttendance">Attendance</string>
+    <string name="mExtraClasses">Extra Classes</string>
+    <string name="mBusTracking">Bus Tracking</string>
+    <string name="mChat">Chat</string>
+    <string name="mGallery">Gallery</string>
+    <string name="mHealthReport">Health Report</string>
+    <string name="mProgressReport">Progress Report</string>
+    <string name="mPolls">Polls</string>
+    <string name="mSettings">Settings</string>
+    <string name="mSchoolInfo">School Info</string>
+<!--
+    <string name="m"></string>
+-->
+
+    <!--  Messages / Notification TITLE-->
+    <string name="msg_exit">Are you sure you want to exit?</string>
+    <string name="msg_enroll">Do you want to enroll for this event or not?</string>
+    <string name="msg_logout">Are you sure you want to Logout?</string>
+    <string name="msgSorry">Sorry, Please try again.</string>
+    <string name="msgWait">Please wait...</string>
+    <string name="msgYes">Yes</string>
+    <string name="msgNo">No</string>
+
+    <!-- Error Messages -->
+    <string name="err_network_failure_title">No Internet Connection!</string>
+    <string name="err_network_failure_message">Please check your WiFi or cellular data network and try again.</string>
+    <string name="msg_no_data">No record found.</string>
+    <string name="generic_error">Server is busy \nPlease, try again later.</string>
+    <string name="generic_server_down">Server Down.</string>
+    <string name="timeout_msg">Request Time out.\nCheck Your Internet Connection.</string>
+
+    <string name="images_files"><![CDATA[Images & Files]]></string>
+    <string name="feedback_title"><![CDATA[Please provide us your feedback]]></string>
+    <string name="feedback_details"><![CDATA[In publishing and graphic design, lorem ipsum is a filler text or greeking commonly used to demonstrate the textual elements of a graphic document or visual presentation.]]></string>
+
+    <string name="attach_file" tools:keep="@string/attach_file">File</string>
+    <string name="move_up_to_cancel">Finger up to cancel sending</string>
+    <string name="release_to_cancel">Finger release to cancel sending</string>
+    <string name="recoding_fail">The recording failure, please try again！</string>
+
+    <string name="Send_voice_need_sdcard_support">Send voice need sdcard support</string>
+    <string name="Recording_without_permission">Recording without permission</string>
+    <string name="The_recording_time_is_too_short">The recording time is too short</string>
+    <string name="Is_download_voice_click_later">Downloading the voice message, click later</string>
+
+  <!--  SlidingDeck-->
+    <string name="nice_job">Nice Job!</string>
+    <string name="no_task">Don\'t have pending tasks.</string>
+    <string name="fill_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+    <!--  Msg-->
+    <string name="healthReport"><![CDATA[Dear Parent / Guardian, \n
+Your child was screened by the Doctor at our school health program.The result of the screening are listed below.\n\n
+If your child is failed in any of the following screening, we recommend that your child be evaluated by his /her heath care provider.]]></string>
+    <string name="feedback"><b> WE LOVE TO HERE FROM YOU!</b>\n\n
+It is long established fact that a reader will be distracted by the readable content of the page when looking at its layout</string>
+    <string name="rupees">₹</string>
+</resources>

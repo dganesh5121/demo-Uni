@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_default_scroll_handle_top.xml.flat",
+        "source": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\bundles\\debug\\res\\drawable\\default_scroll_handle_top.xml"
+    },
+    {
+        "merged": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_default_scroll_handle_left.xml.flat",
+        "source": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\bundles\\debug\\res\\drawable\\default_scroll_handle_left.xml"
+    },
+    {
+        "merged": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_default_scroll_handle_right.xml.flat",
+        "source": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\bundles\\debug\\res\\drawable\\default_scroll_handle_right.xml"
+    },
+    {
+        "merged": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_default_scroll_handle_bottom.xml.flat",
+        "source": "F:\\android\\android_studio_ws\\TechIndiana_School_Parent\\libPdfV\\build\\intermediates\\bundles\\debug\\res\\drawable\\default_scroll_handle_bottom.xml"
+    }
+]

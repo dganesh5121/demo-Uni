@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="5dp"
+            android:background="#ffffff"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="1dp"
+            card_view:cardElevation="3dp"
+            card_view:cardUseCompatPadding="true">
+
+
+            <FrameLayout
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <com.techindiana.school.parent.Utils.CircularImageView
+                        android:id="@+id/pvImgParent"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@mipmap/login_user_profile_img" />
+
+                    <TextView
+                        android:id="@+id/pvTvPName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/user_name_ic"
+                        android:drawablePadding="10dp"
+                        android:singleLine="true"
+                        android:text=" "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/pvTvPContactNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableLeft="@mipmap/user_phone_ic"
+                        android:drawablePadding="10dp"
+                        android:text=" "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/pvTvPEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="3dp"
+                        android:drawableLeft="@mipmap/user_email_ic"
+                        android:drawablePadding="10dp"
+                        android:text=" "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/pvTvImgPEdit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_margin="10dp"
+                    android:src="@mipmap/edit_ic" />
+            </FrameLayout>
+        </android.support.v7.widget.CardView>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/capsul_right_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="Child Details"
+                android:textColor="@color/textClrPri"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+
+                android:orientation="horizontal">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="3dp"
+                    android:src="@mipmap/holiday_ic" />
+            </LinearLayout>
+        </TableRow>
+
+
+        <FrameLayout
+            android:id="@+id/pvFlyChild1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp">
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/child_backgroung">
+
+                    <TextView
+                        android:id="@+id/pvTvC1Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:singleLine="true"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/pvTvC1Gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="( )"
+                        android:textColor="@color/orange"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/pvTvC1SchoolName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:drawableLeft="@mipmap/school_ic"
+                        android:drawablePadding="10dp"
+                        android:singleLine="true"
+                        android:text=":  "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/pvTvC1Year"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@mipmap/school_year_ic"
+                        android:drawablePadding="10dp"
+                        android:text=":  "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/pvTvC1RollNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@mipmap/school_roll_no_ic"
+                        android:drawablePadding="10dp"
+                        android:text=":  "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+
+                    <TextView
+                        android:id="@+id/pvTvC1BloodGr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:drawableLeft="@mipmap/blood_ic"
+                        android:drawablePadding="10dp"
+                        android:text=":  "
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="right">
+
+                        <ImageView
+                            android:id="@+id/pvImgC1Edit"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:src="@mipmap/edit_ic" />
+
+                        <ImageView
+                            android:id="@+id/pvImgC1IsActive"
+                            android:layout_width="wrap_content"
+
+                            android:layout_height="wrap_content"
+                            android:layout_margin="5dp"
+                            android:src="@mipmap/deactiv_child_ic" />
+                    </TableRow>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/child_backgroung_bottom"
+                    android:text=""
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pvTvC1DivClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" "
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:background="#ffffff"
+                    card_view:cardBackgroundColor="#ffffff"
+                    card_view:cardCornerRadius="1dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardUseCompatPadding="true">
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/pvTvC1Profile"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/login_user_profile_img" />
+
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/pvTvC1DOB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/pvFLyChild2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            >
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/child_backgroung">
+
+                    <TextView
+                        android:id="@+id/pvTvC2Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:singleLine="true"
+                        android:text=" "
+
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/pvTvC2Gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="( )"
+                        android:textColor="@color/orange"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/pvTvC2SchoolName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/school_ic"
+                    android:drawablePadding="10dp"
+                    android:singleLine="true"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/pvTvC2Year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@mipmap/school_year_ic"
+                    android:drawablePadding="10dp"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/pvTvC2RollNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@mipmap/school_roll_no_ic"
+                    android:drawablePadding="10dp"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/pvTvC2BloodGr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@mipmap/blood_ic"
+                    android:drawablePadding="10dp"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:id="@+id/pvImgC2Edit"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@mipmap/edit_ic" />
+
+                    <ImageView
+                        android:id="@+id/pvImgC2IsActive"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@mipmap/deactiv_child_ic" />
+                </TableRow>
+            </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/child_backgroung_bottom"
+                    android:text=""
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pvTvC2DivClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" "
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:background="#ffffff"
+                    card_view:cardBackgroundColor="#ffffff"
+                    card_view:cardCornerRadius="1dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardUseCompatPadding="true">
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/pvTvC2Profile"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/login_user_profile_img" />
+                    </FrameLayout>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/pvTvC2DOB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/pvFlyChild3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+          >
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/child_backgroung">
+
+                    <TextView
+                        android:id="@+id/pvTvC3Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:singleLine="true"
+                        android:text=" "
+                        android:textColor="@color/white"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/pvTvC3Gender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="( )"
+                        android:textColor="@color/orange"
+                        android:textSize="10sp" />
+
+                </TableRow>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffffff"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/pvTvC3SchoolName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawableLeft="@mipmap/school_ic"
+                    android:drawablePadding="10dp"
+                    android:singleLine="true"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/pvTvC3Year"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@mipmap/school_year_ic"
+                    android:drawablePadding="10dp"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/pvTvC3RollNo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@mipmap/school_roll_no_ic"
+                    android:drawablePadding="10dp"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:id="@+id/pvTvC3BloodGr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:drawableLeft="@mipmap/blood_ic"
+                    android:drawablePadding="10dp"
+                    android:text=":  "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right">
+
+                    <ImageView
+                        android:id="@+id/pvImgC3Edit"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@mipmap/edit_ic" />
+
+                    <ImageView
+                        android:id="@+id/pvImgC3IsActive"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5dp"
+                        android:src="@mipmap/deactiv_child_ic" />
+                </TableRow>
+            </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/child_backgroung_bottom"
+                    android:text=""
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/pvTvC3DivClass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text=" "
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    android:background="#ffffff"
+                    card_view:cardBackgroundColor="#ffffff"
+                    card_view:cardCornerRadius="1dp"
+                    card_view:cardElevation="3dp"
+                    card_view:cardUseCompatPadding="true">
+
+
+                    <FrameLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/pvTvC3Profile"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:src="@mipmap/login_user_profile_img" />
+                    </FrameLayout>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/pvTvC3DOB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:text=" "
+                    android:textColor="@color/textClrPri"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </FrameLayout>
+
+        <android.support.v7.widget.AppCompatButton
+
+            android:id="@+id/pvBtnAddChild"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@mipmap/ic_upload_file"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Add Child"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:backgroundTint="@color/btnColor" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/capsul_right_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="Change Password"
+                android:textColor="@color/textClrPri"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+
+                android:orientation="horizontal">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="3dp"
+                    android:src="@mipmap/holiday_ic" />
+            </LinearLayout>
+        </TableRow>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+
+            android:background="#ffffff"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+
+
+                    android:layout_marginTop="15dp"
+                    android:text="Old Password"
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/pvEtOldPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edit_text_backgroung"
+
+                        android:drawablePadding="15dp"
+                        android:ems="10"
+
+                        android:inputType="textPassword"
+
+                        android:maxLength="15"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:textColor="@color/textClrPri"
+                        android:textColorHint="@color/textClrSec"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="#00000000"
+                        android:textSize="14sp"
+                        android:visibility="invisible" />
+
+                </FrameLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+
+
+                    android:text="New Password"
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:id="@+id/pvEtNewPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edit_text_backgroung"
+
+                        android:drawablePadding="15dp"
+                        android:ems="10"
+
+                        android:inputType="textPassword"
+
+                        android:maxLength="15"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:textColor="@color/textClrPri"
+                        android:textColorHint="@color/textClrSec"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="#00000000"
+                        android:textSize="14sp"
+                        android:visibility="invisible" />
+
+                </FrameLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+
+
+                    android:text="Confirm password"
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp">
+
+                    <EditText
+                        android:id="@+id/pvEtCPassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/edit_text_backgroung"
+
+                        android:drawablePadding="15dp"
+                        android:ems="10"
+
+                        android:inputType="textPassword"
+
+                        android:maxLength="15"
+                        android:paddingLeft="15dp"
+                        android:text=""
+                        android:textColor="@color/textClrPri"
+                        android:textColorHint="@color/textClrSec"
+                        android:textSize="14sp" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+
+                        android:background="#00000000"
+                        android:textSize="18sp"
+                        android:visibility="invisible" />
+
+                </FrameLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.AppCompatButton
+
+            android:id="@+id/pvBtnChangePassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:drawablePadding="10dp"
+            android:drawableRight="@mipmap/ic_btn_check"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            app:backgroundTint="@color/btnColor" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+
+            <TableRow
+                android:layout_width="10dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/capsul_right_button" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:padding="5dp"
+                android:text="Other Settings"
+                android:textColor="@color/textClrPri"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_weight="1"
+
+                android:orientation="horizontal">
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_margin="3dp"
+                    android:src="@mipmap/holiday_ic" />
+            </LinearLayout>
+        </TableRow>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:text="Notifications"
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <Switch
+                    android:id="@+id/pvSwNotification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+
+            android:background="#ffffff"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:text="Set App Lock"
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <Switch
+                    android:id="@+id/pvSwAppLock"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/pvCvAddParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:layout_marginTop="5dp"
+            android:background="#ffffff"
+            card_view:cardBackgroundColor="#ffffff"
+            card_view:cardCornerRadius="2dp"
+            card_view:cardElevation="2dp"
+            card_view:cardUseCompatPadding="true">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="5dp"
+                    android:text="Add Parent"
+                    android:textColor="@color/textClrPri"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/pvImgAddParent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:src="@mipmap/add_parent_ic" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/faboptions_bus_tracking"
+        android:icon="@mipmap/bus_tracking_ic"
+        android:title="bus_tracking" />
+
+    <item
+        android:id="@+id/faboptions_attendance"
+        android:icon="@mipmap/attendance_ic"
+        android:title="attendance" />
+
+    <item
+        android:id="@+id/faboptions_activity_center"
+        android:icon="@mipmap/activity_center_ic"
+        android:title="activity_center" />
+
+
+    <item
+        android:id="@+id/faboptions_home_work"
+        android:icon="@mipmap/home_work_ic"
+        android:title="home_work" />
+
+</menu>

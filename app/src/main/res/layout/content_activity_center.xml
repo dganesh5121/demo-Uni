@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal">
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/capsul_right_button">
+
+                    <TextView
+                        android:id="@+id/last_month"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:drawableLeft="@mipmap/ic_btn_arrow_2"
+                        android:gravity="center"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
+
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="28dp"
+                    android:layout_centerVertical="true"
+                    android:layout_weight="1"
+
+                    android:orientation="horizontal">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="3dp"
+                        android:src="@mipmap/active_event_date_ic" />
+
+                    <LinearLayout
+                        android:id="@+id/choose_date_view"
+                        android:layout_width="wrap_content"
+                        android:layout_height="28dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:background="@drawable/button_bg"
+                        android:orientation="horizontal"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
+
+                        <TextView
+                            android:id="@+id/show_month_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom|center"
+                            android:maxLines="1"
+                            android:text="1"
+                            android:textColor="#ffffff"
+                            android:textSize="19.3sp" />
+
+                        <TextView
+                            android:id="@+id/show_month_view_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:gravity="bottom"
+                            android:maxLines="1"
+                            android:text="month"
+                            android:textColor="#ffffff"
+                            android:textSize="13sp" />
+
+                        <TextView
+                            android:id="@+id/show_year_view"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="bottom"
+                            android:text="2014 "
+                            android:textColor="#ffffff"
+                            android:textSize="19.3sp" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="3dp"
+                        android:src="@mipmap/active_event_date_ic" />
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="5dp"
+                        android:layout_weight="1"
+                        android:background="@color/colorPrimaryDark" />
+                </LinearLayout>
+
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:background="@drawable/capsul_lft_button">
+
+                    <TextView
+                        android:id="@+id/next_month"
+                        android:layout_width="wrap_content"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="right"
+
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:drawableRight="@mipmap/ic_btn_arrow"
+                        android:gravity="center"
+                        android:paddingLeft="4dp"
+                        android:paddingRight="4dp"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp" />
+                </TableRow>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="#fff"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="Mo" />
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="Tu" />
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="We" />
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="Th" />
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="Fr" />
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="Sa" />
+
+            <TextView
+                style="@style/weekIndicatorStyle"
+                android:text="Su" />
+        </LinearLayout>
+
+        <android.support.design.widget.CoordinatorLayout
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <com.ldf.calendar.view.MonthPager
+                android:id="@+id/calendar_view"
+                android:layout_width="match_parent"
+                android:layout_height="270dp"
+                android:background="#fff" />
+
+
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="45dp"
+                android:background="#ffffff"
+                android:clipChildren="false"
+                android:layout_weight="1"
+                android:clipToPadding="false"
+                app:layout_behavior="com.ldf.calendar.behavior.RecyclerViewBehavior" />
+            <!-- paddingBottom或者magin距离必须是MonthPager高度的1/6-->
+            <!-- RecyclerView的高度必须是MatchParent-->
+            <!-- RecyclerView的background必须是非透明-->
+
+        </android.support.design.widget.CoordinatorLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+

@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:background="#ffffff"
+
+        card_view:cardBackgroundColor="#ffffff"
+        card_view:cardCornerRadius="0.1dp"
+        card_view:cardElevation="4dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:layout_marginTop="10dp"
+
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+
+
+                                android:text="First Name"
+                                android:textColor="@color/textClrPri"
+                                android:textSize="14sp" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+
+                                    android:id="@+id/sPEFEtName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/edit_text_backgroung"
+                                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                    android:drawablePadding="15dp"
+                                    android:ems="10"
+
+                                    android:inputType="text"
+                                    android:paddingLeft="15dp"
+                                    android:text=""
+                                    android:textColor="@color/textClrPri"
+
+                                    android:textColorHint="@color/textClrSec"
+                                    android:textSize="14sp" />
+
+                                <Button
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+
+                                    android:background="#00000000"
+                                    android:textSize="18sp"
+                                    android:visibility="invisible" />
+
+                            </FrameLayout>
+
+                            <TextView
+
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="15dp"
+
+
+                                android:text="Last Name"
+                                android:textColor="@color/textClrPri"
+                                android:textSize="14sp" />
+
+                            <FrameLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <EditText
+
+                                    android:id="@+id/sPEEtLName"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:background="@drawable/edit_text_backgroung"
+                                    android:digits="abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                                    android:drawablePadding="15dp"
+                                    android:ems="10"
+
+                                    android:inputType="text"
+                                    android:paddingLeft="15dp"
+                                    android:text=""
+                                    android:textColor="@color/textClrPri"
+
+                                    android:textColorHint="@color/textClrSec"
+                                    android:textSize="14sp" />
+
+                                <Button
+
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+
+                                    android:background="#00000000"
+                                    android:textSize="18sp"
+                                    android:visibility="invisible" />
+
+                            </FrameLayout>
+                        </LinearLayout>
+
+                        <com.techindiana.school.parent.Utils.CircularImageView
+                            android:id="@+id/sPEImgUser"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_gravity="center"
+                            android:layout_margin="5dp"
+                            android:src="@mipmap/login_user_profile_img" />
+                    </LinearLayout>
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+
+                        android:text="DOB"
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+
+                            android:id="@+id/sPEEtDob"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_backgroung"
+                            android:drawablePadding="15dp"
+                            android:editable="false"
+
+                            android:ems="10"
+                            android:focusable="false"
+
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:textColor="@color/textClrPri"
+                            android:textColorHint="@color/textClrSec"
+                            android:textSize="14sp" />
+
+                        <Button
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:background="#00000000"
+                            android:textSize="18sp"
+                            android:visibility="invisible" />
+
+
+                    </FrameLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+
+                        android:text="Mobile No."
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/sPEEtPhone"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_backgroung"
+                            android:drawablePadding="15dp"
+                            android:ems="10"
+                            android:inputType="phone"
+                            android:maxLength="15"
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:textColor="@color/textClrPri"
+                            android:textColorHint="@color/textClrSec"
+                            android:textSize="14sp" />
+
+                        <Button
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:background="#00000000"
+                            android:maxLength="15"
+                            android:textSize="18sp"
+                            android:visibility="invisible" />
+
+                    </FrameLayout>
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+
+                        android:text="Email Id"
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/sPEEtEmail"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_backgroung"
+                            android:drawablePadding="15dp"
+                            android:editable="false"
+                            android:ems="10"
+                            android:focusable="false"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:textColor="@color/textClrPri"
+                            android:textColorHint="@color/textClrSec"
+                            android:textSize="14sp" />
+
+                        <Button
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:background="#00000000"
+                            android:textSize="18sp"
+                            android:visibility="invisible" />
+
+                    </FrameLayout>
+
+
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+
+
+                        android:text="Current Address"
+                        android:textColor="@color/textClrPri"
+                        android:textSize="14sp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <EditText
+                            android:id="@+id/sPEEtAddress"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edit_text_backgroung"
+                            android:drawablePadding="15dp"
+                            android:ems="10"
+                            android:inputType="phone"
+                            android:maxLength="15"
+                            android:paddingLeft="15dp"
+                            android:text=""
+                            android:textColor="@color/textClrPri"
+                            android:textColorHint="@color/textClrSec"
+                            android:textSize="14sp" />
+
+                        <Button
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:background="#00000000"
+                            android:maxLength="15"
+                            android:textSize="18sp"
+                            android:visibility="invisible" />
+
+                    </FrameLayout>
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.AppCompatButton
+
+        android:id="@+id/sPEBtnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:drawablePadding="10dp"
+        android:drawableRight="@mipmap/ic_btn_arrow"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        app:backgroundTint="@color/btnColor" />
+
+</LinearLayout>
